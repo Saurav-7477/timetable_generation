@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime, timedelta
-from timetable_generator import timetable_generator
+from timetable_generator_v2 import timetable_generator
 
 app = FastAPI(title="AI Timetable Generator")
 
